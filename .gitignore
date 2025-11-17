@@ -1,0 +1,62 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+build/
+
+# Generated plugin registrants
+**/generated_plugin_registrant.*
+**/GeneratedPluginRegistrant.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Android
+android/.gradle/
+android/app/build/
+*.keystore
+*.jks
+
+# iOS / macOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+macos/Flutter/Flutter.framework
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/build/
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata/
+
+# Windows
+windows/build/
+
+# Linux
+linux/build/
+
+# Web
+web/.dart_tool/
+
+# Cache files
+*.log
+*.lock
+*.tmp
+
+# Asset cache
+asset/**/*.lock
+
+# Coverage
+coverage/
+
+# Personal files
+*.env
+*.DS_Store
