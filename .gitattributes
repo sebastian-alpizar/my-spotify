@@ -15,3 +15,11 @@ build/** linguist-vendored
 # ---- Optionally ignore generated Swift/Kotlin ----
 *.kt linguist-vendored
 *.swift linguist-vendored
+
+# Ignorar archivos CMake generados por Android/NDK
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+
+android/** linguist-vendored
+ios/** linguist-vendored
+build/** linguist-vendored
